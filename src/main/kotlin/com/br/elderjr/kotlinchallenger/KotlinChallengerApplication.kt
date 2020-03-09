@@ -1,11 +1,11 @@
-package com.br.elderjr.kotlinchallanger
+package com.br.elderjr.kotlinchallenger
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
-class KotlinChallangerApplication
+@SpringBootApplication()
+class KotlinChallengerApplication
 
 fun main(args: Array<String>) {
-	runApplication<KotlinChallangerApplication>(*args)
+	runApplication<KotlinChallengerApplication>(*args)
 }
